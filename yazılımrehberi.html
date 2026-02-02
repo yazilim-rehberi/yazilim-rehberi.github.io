@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telefondan GitHub Pages ile Web Site Kurma</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 16px;
+      font-size: 1.8rem;
+    }
+
+    h2 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 1.3rem;
+      color: #2c5cff;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .step {
+      background: #f4f7ff;
+      border-left: 4px solid #2c5cff;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .code {
+      background: #111827;
+      color: #e5e7eb;
+      padding: 12px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      overflow-x: auto;
+      margin-top: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>📱 Telefondan GitHub Pages ile Web Site Kurma</h1>
+
+    <p>
+      Bu sayfa, <strong>sadece telefon kullanarak</strong> GitHub Pages üzerinden
+      nasıl web sitesi kurup yayınlayabileceğini <strong>adım adım</strong> anlatır.
+    </p>
+
+    <h2>1️⃣ GitHub Hesabı Oluştur</h2>
+    <div class="step">
+      <ul>
+        <li>Tarayıcıdan <strong>github.com</strong> adresine gir</li>
+        <li>Sign up ile ücretsiz hesap oluştur</li>
+        <li>E-posta doğrulamasını yap</li>
+      </ul>
+    </div>
+
+    <h2>2️⃣ Repository (Depo) Oluştur</h2>
+    <div class="step">
+      <p>Yeni bir repository aç ve adını şöyle yaz:</p>
+      <div class="code">kullaniciadi.github.io</div>
+      <p>Repository mutlaka <strong>Public</strong> olmalı.</p>
+    </div>
+
+    <h2>3️⃣ index.html Dosyasını Oluştur</h2>
+    <div class="step">
+      <ul>
+        <li><strong>Create new file</strong> butonuna bas</li>
+        <li>Dosya adına <strong>index.html</strong> yaz</li>
+        <li>Bu sayfadaki kodu yapıştır</li>
+        <li><strong>Commit new file</strong> ile kaydet</li>
+      </ul>
+    </div>
+
+    <h2>4️⃣ GitHub Pages’i Aktif Et</h2>
+    <div class="step">
+      <ul>
+        <li>Repository → <strong>Settings</strong></li>
+        <li><strong>Pages</strong> bölümüne gir</li>
+        <li>Branch: <strong>main</strong> / Folder: <strong>/root</strong></li>
+        <li>Save</li>
+      </ul>
+    </div>
+
+    <h2>5️⃣ Siten Yayında 🎉</h2>
+    <div class="step">
+      <p>Tarayıcıya şunu yaz:</p>
+      <div class="code">https://kullaniciadi.github.io</div>
+      <p>Artık siten tüm cihazlarda çalışır durumda.</p>
+    </div>
+
+    <footer>
+      🚀 GitHub Pages • Mobil Uyumlu • Ücretsiz
+    </footer>
+  </div>
+</body>
+</html>
